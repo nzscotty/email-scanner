@@ -32,11 +32,11 @@ export function App() {
   useEffect(() => {
     const checkApiHealth = async () => {
       try {
-  const response = await fetch('https://horrible-skull-rq5ppj5rj4cpq49-5000.app.github.dev/api/EmailScanner', {
+  const response = await fetch('https://spooky-spooky-mummy-jvpqqxp479cq567-5000.app.github.dev/api/EmailScanner', {
           method: 'GET',
           headers: {
             'Accept': 'application/json',
-            'Origin': 'https://horrible-skull-rq5ppj5rj4cpq49-5173.app.github.dev/'
+            'Origin': 'https://spooky-spooky-mummy-jvpqqxp479cq567-5173.app.github.dev/'
           },
           mode: 'cors'
         });
@@ -64,12 +64,12 @@ export function App() {
   setScannedData(null)
 
     try {
-  const response = await fetch('https://horrible-skull-rq5ppj5rj4cpq49-5000.app.github.dev/api/EmailScanner', {
+  const response = await fetch('https://spooky-spooky-mummy-jvpqqxp479cq567-5000.app.github.dev/api/EmailScanner', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json',
-          'Origin': 'https://horrible-skull-rq5ppj5rj4cpq49-5173.app.github.dev/'
+          'Origin': 'https://spooky-spooky-mummy-jvpqqxp479cq567-5173.app.github.dev/'
         },
         mode: 'cors',
         body: JSON.stringify({ emailText }),
