@@ -1,0 +1,7 @@
+{
+"forwardPorts": [5000, 5173],
+"portsAttributes": {
+"5000": { "visibility": "public" },
+"5173": { "visibility": "public" }
+}
+}
