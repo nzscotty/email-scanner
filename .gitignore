@@ -76,3 +76,4 @@ coverage/
 # Production build
 build/
 dist/
+email-scanner-client/test-results/.last-run.json

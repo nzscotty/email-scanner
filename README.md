@@ -9,10 +9,20 @@ This application consists of a .NET Core Web API backend and a React frontend th
 - cd EmailScanner.API
 - dotnet run
 
->> MAKE SURE YOU CHANGE THE SERVICE TO PUBLIC AFTER STARTING IN IN THE "PORTS" TAB
+#### Backend tests
+- dotnet test
 
 ### Frontend (React + Vite)
 
 - cd email-scanner-client
 - npm install
 - npm run dev
+
+#### Frontend tests
+
+- npm test
+
+#### Frontend e2e tests
+
+- npx playwright install
+- npm run e2e

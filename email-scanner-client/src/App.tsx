@@ -123,6 +123,7 @@ export function App() {
         
         <div className="button-group">
           <button
+            data-testid="submit-button"
             onClick={handleSubmit}
             disabled={isLoading || !emailText.trim()}
             className="submit-button"
@@ -148,7 +149,7 @@ export function App() {
       {scannedData && (
         <div className="result-section">
           <h2>Scanned Data</h2>
-          <pre className="json-output">
+          <pre data-testid="json" className="json-output">
             {JSON.stringify(scannedData, null, 2)}
           </pre>
         </div>
